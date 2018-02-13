@@ -1,0 +1,26 @@
+[31-05-2017 09:03:42] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[31-05-2017 09:03:42] PayPal\Core\PayPalHttpConnection : INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[31-05-2017 09:03:43] PayPal\Core\PayPalHttpConnection : DEBUG: Request Headers 	: POST /v1/oauth2/token HTTP/1.1, Host: api.sandbox.paypal.com, User-Agent: PayPalSDK/PayPal-PHP-SDK 1.11.0 (platform-ver=5.6.19; bit=32; os=Windows_NT_10.0; machine=i586; crypto-lib-ver=1.0.1s; curl=7.47.1), Authorization: Basic QWQ0eVZqRmtfSklrUXVTMWlxSUtkb0Ixb2RBOVUwV2E3SFF2eWstSV9uNzRRWE54cnlzeERRM29USUFLTDMzRUVwdmk4VHpQMVI1NndCX3A6RUIxWHdLYzc4dVJQc0ZPSWZtZzVXYUV0OEFxbzd5dEIzTl9qa2cxZEVMMGZaT2Nwanp2X0RKa3Z4THdoM3Z6REw5VUkzLVJfV2VBQ2hRekI=, Accept: */*, Content-Length: 29, Content-Type: application/x-www-form-urlencoded, , 
+[31-05-2017 09:03:43] PayPal\Core\PayPalHttpConnection : DEBUG: Request Data		: grant_type=client_credentials
+--------------------------------------------------------------------------------------------------------------------------------
+
+[31-05-2017 09:03:43] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 401
+[31-05-2017 09:03:43] PayPal\Core\PayPalHttpConnection : DEBUG: Response Headers	: HTTP/1.1 401 Unauthorized, Date: Wed, 31 May 2017 21:08:48 GMT, Server: Apache, paypal-debug-id: 92aae02b7b099, X-PAYPAL-TOKEN-SERVICE: IAAS, Paypal-Debug-Id: 92aae02b7b099, Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.API.1%26silo_version%3D1880%26app%3Dplatformapiserv%26TIME%3D3761254233%26HTTP_X_PP_AZ_LOCATOR%3D; Expires=Wed, 31 May 2017 21:38:48 GMT; domain=.paypal.com; path=/; Secure; HttpOnly, Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT, Vary: Authorization, Content-Length: 69, Connection: close, Content-Type: application/json, , 
+[31-05-2017 09:03:43] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 401 when accessing https://api.sandbox.paypal.com/v1/oauth2/token. {"error":"closed_user","error_description":"Closed user credentials"}
+[31-05-2017 09:03:43] PayPal\Core\PayPalHttpConnection : DEBUG: 
+
+================================================================================================================================
+
+[31-05-2017 09:04:06] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[31-05-2017 09:04:06] PayPal\Core\PayPalHttpConnection : INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[31-05-2017 09:04:07] PayPal\Core\PayPalHttpConnection : DEBUG: Request Headers 	: POST /v1/oauth2/token HTTP/1.1, Host: api.sandbox.paypal.com, User-Agent: PayPalSDK/PayPal-PHP-SDK 1.11.0 (platform-ver=5.6.19; bit=32; os=Windows_NT_10.0; machine=i586; crypto-lib-ver=1.0.1s; curl=7.47.1), Authorization: Basic QWQ0eVZqRmtfSklrUXVTMWlxSUtkb0Ixb2RBOVUwV2E3SFF2eWstSV9uNzRRWE54cnlzeERRM29USUFLTDMzRUVwdmk4VHpQMVI1NndCX3A6RUIxWHdLYzc4dVJQc0ZPSWZtZzVXYUV0OEFxbzd5dEIzTl9qa2cxZEVMMGZaT2Nwanp2X0RKa3Z4THdoM3Z6REw5VUkzLVJfV2VBQ2hRekI=, Accept: */*, Content-Length: 29, Content-Type: application/x-www-form-urlencoded, , 
+[31-05-2017 09:04:07] PayPal\Core\PayPalHttpConnection : DEBUG: Request Data		: grant_type=client_credentials
+--------------------------------------------------------------------------------------------------------------------------------
+
+[31-05-2017 09:04:07] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 401
+[31-05-2017 09:04:07] PayPal\Core\PayPalHttpConnection : DEBUG: Response Headers	: HTTP/1.1 401 Unauthorized, Date: Wed, 31 May 2017 21:09:12 GMT, Server: Apache, paypal-debug-id: e6ae3d0c8fde6, X-PAYPAL-TOKEN-SERVICE: IAAS, Paypal-Debug-Id: e6ae3d0c8fde6, Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.API.1%26silo_version%3D1880%26app%3Dplatformapiserv%26TIME%3D4163907417%26HTTP_X_PP_AZ_LOCATOR%3D; Expires=Wed, 31 May 2017 21:39:12 GMT; domain=.paypal.com; path=/; Secure; HttpOnly, Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT, Vary: Authorization, Content-Length: 69, Connection: close, Content-Type: application/json, , 
+[31-05-2017 09:04:07] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 401 when accessing https://api.sandbox.paypal.com/v1/oauth2/token. {"error":"closed_user","error_description":"Closed user credentials"}
+[31-05-2017 09:04:07] PayPal\Core\PayPalHttpConnection : DEBUG: 
+
+================================================================================================================================
+
